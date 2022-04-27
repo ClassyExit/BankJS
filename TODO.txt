@@ -1,37 +1,19 @@
-Authentication
-    - Valid login
-
-Landing Page
-    - DONE Sign in
-    - DONE Sign up
-
-Sign in
-    - Email
-    - Password
-
-Sign up
-    - Email
-    - Password
-    - Validate
-    - Generate User info
-
-Sign out
-    - Allow user to sign out
 
 Users Repo
-    - DONE Account ID
-    - Password (encrypt)
-    - Email
-    - Balance (encrypt)
-    - Withdrawl
-    - Deposit
-    - Get user info (balance, ID, etc)
-    ------
-    - getAll: gets a list of all Users
-    - getOne: Finds the user with the given ID
-    - getOneBy: Finds on users with given filters
-    - create: Creates a user with given attributes
-    - update: Updates the user with the given id using the given attributes
-    - delete: Delete the user with the given ID
-    - randomID: generate a random ID
-    - writeall: Writes all users to a users.json file
+    - DONE TESTED getAll: gets a list of all Users
+    - DONE TESTED getOne: Finds the user with the given ID
+    - DONE TESTED getOneBy: Finds on users with given filters
+    - DONE TESTED create: Creates a user with given attributes
+    - DONE TESTED update: Updates the user with the given id using the given attributes
+    - DONE TESTED delete: Delete the user with the given ID
+    - DONE TESTED randomID: generate a random ID
+    - DONE TESTED writeall: Writes all records to file
+    - DONE TESTED comparePasswords: validate if supplied password === stored password
+
+
+
+TODO: 
+    - Fix redirects after sign in and sign up
+    - Seperate repos, pull out stuff from users that can be used in bank
+    
+   
