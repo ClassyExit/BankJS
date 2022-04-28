@@ -1,4 +1,4 @@
-module.exports = ({ contents, titlePage = "Bank" }) => {
+module.exports = ({ content, titlePage = "Bank" }) => {
   return `
           <!DOCTYPE html>
           <html lang="en">
@@ -9,7 +9,7 @@ module.exports = ({ contents, titlePage = "Bank" }) => {
               <title>${titlePage}</title>
           </head>
           <body>
-              ${contents}
+              ${content}
           </body>
           </html>
       `;

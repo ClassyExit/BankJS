@@ -1,10 +1,10 @@
-const layout = require("../layout");
+const authLayout = require("../authLayout");
 const { getError } = require("../../helpers");
 
 module.exports = ({ errors }) => {
-  return layout({
+  return authLayout({
     titlePage: "SignIn",
-    contents: `
+    content: `
       <div class="container">
         <div class="columns is-centered">
           <div class="column is-one-quarter">

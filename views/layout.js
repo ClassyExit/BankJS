@@ -1,4 +1,6 @@
-module.exports = ({ contents, titlePage = "Bank" }) => {
+// General layout - headers, links, etc
+
+module.exports = ({ content, titlePage = "Bank" }) => {
   return `
         <!DOCTYPE html>
         <html lang="en">
@@ -20,7 +22,7 @@ module.exports = ({ contents, titlePage = "Bank" }) => {
                             <button id="signup-in-button" href="/signin">Signin</button>
                         </form>
                     </div>
-            ${contents}
+            ${content}
         </body>
         </html>
     `;

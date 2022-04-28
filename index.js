@@ -2,7 +2,8 @@ const express = require("express");
 const bodyParser = require("body-parser"); // Parse incoming requests
 const cookieSession = require("cookie-session"); // Use browser cookie
 const userAuthRouter = require("./routes/users/auth"); // Sign in/up pages
-const landingPageRouter = require("./routes/pages/landingPage");
+const homePageRouter = require("./routes/pages/homePage");
+const dashboardRouter = require("./routes/pages/dashboard");
 
 const app = express();
 
@@ -14,6 +15,8 @@ app.use(
   })
 );
 app.use(userAuthRouter);
-app.use(landingPageRouter);
+app.use(homePageRouter);
+app.use(dashboardRouter);
 
 app.listen(process.env.PORT || 3000, () => console.log("Server running..."));
+app.listen(3000, "192.168.1.15");

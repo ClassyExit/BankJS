@@ -1,10 +1,10 @@
-const layout = require("../layout");
+const authLayout = require("../authLayout");
 const { getError } = require("../../helpers");
 
 module.exports = ({ errors }) => {
-  return layout({
+  return authLayout({
     titlePage: "SignUp",
-    contents: `
+    content: `
       <div class="container">
         <div class="columns is-centered">
           <div class="column is-one-quarter">
@@ -30,7 +30,7 @@ module.exports = ({ errors }) => {
               </div>
               <button class="button is-primary">Submit</button>
             </form>
-            <a href="/signin">Have an account? Sign In</a>
+            <a href="/signin">Have an account? Log In</a>
           </div>
         </div>
     </div>

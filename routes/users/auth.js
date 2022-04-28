@@ -20,7 +20,6 @@ router.get("/signup", (req, res) => {
   res.send(signupTemplate({ req }));
 });
 
-// Sign up validation handling
 router.post(
   "/signup",
   [requireEmail, requirePassword, requirePasswordConfirmation],
@@ -37,7 +36,8 @@ router.post(
 
 // Sign out
 router.get("/signout", (req, res) => {
-  res.send("You are logged out");
+  req.session = null; // clear user cookie
+  res.redirect("/");
 });
 
 // Sign in
@@ -45,7 +45,6 @@ router.get("/signin", (req, res) => {
   res.send(signinTemplate({ req }));
 });
 
-// Sign in validation
 router.post(
   "/signin",
   [requireEmailExists, requireValidPasswordForUser],
@@ -55,9 +54,10 @@ router.post(
 
     const user = await usersRepo.getOneBy({ email });
 
+    // store user id in cookies
     req.session.userId = user.id;
-    
-    res.redirect(`/${sessionId}/dashboard`);
+
+    res.redirect("/bank/dashboard");
   }
 );
 

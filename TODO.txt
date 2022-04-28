@@ -10,10 +10,22 @@ Users Repo
     - DONE TESTED writeall: Writes all records to file
     - DONE TESTED comparePasswords: validate if supplied password === stored password
 
-
+FINISHED TASKS LIST
+    - DONE Fix redirects after sign in and sign up
+    - DONE How to pass information from sign in to dashboard
+        - Pass cookie from sign in with email/id
 
 TODO: 
-    - Fix redirects after sign in and sign up
     - Seperate repos, pull out stuff from users that can be used in bank
+    - Configure dashboard page
+        - Display balance value
+        - User ID
+    - Create deposit feature
+    - Create withdrawl feature
+    - Style with css
+        - homepage
+        - Sign in
+        - Create account
+        - Dashboard
+    - Add content to homepage
     
-   
