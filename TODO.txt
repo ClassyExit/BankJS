@@ -28,4 +28,21 @@ TODO:
         - Create account
         - Dashboard
     - Add content to homepage
-    
+        - Add bank stats
+          - Total users (count total users)
+          - Assets 
+    - Encrypt balance details
+    - Dashboard
+        - deposit
+        - withdrawl
+        - Transfer
+        - Transactions
+
+
+- Deposit/ withdrawl UI https://codepen.io/iftikharrasha/pen/NWbKaOX
+                        https://codepen.io/azrikahar/pen/zYBGMVq
+
+
+- Home page
+    https://codepen.io/asleka/pen/MWjxXMJ
+    https://codepen.io/vincesamoy/pen/mEmqbJ

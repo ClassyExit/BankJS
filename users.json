@@ -1,15 +1,8 @@
 [
   {
-    "email": "test@test.com"
-  },
-  {
-    "email": "bobbyhobby@gmail.com",
-    "password": "3eb98c4267150cd69d6409cd14fe8c597171191174d8e2f7c1bb12e83f9bc02963daf29b4f1e343bbaa916284bad44af69138ba20da564076777f5dd2f9bb4a6.acf057f6273eda06",
-    "id": "46044d54"
-  },
-  {
-    "email": "t@t.com",
-    "password": "4e2ea9365a582f007290c48e632e3515fd36b3194a097bba04a1106e3542302e7ba21e25dfc6bd275d7b0a4387c37b69cd05b69671dff0a63b58fc8a420756fe.1861dfb1a3cdf9e9",
-    "id": "9b6e4b83"
+    "email": "hello@test.com",
+    "password": "30b418d935d91226338f46a0bb6e4206ca4ff8e082e77e891038861af7679e1dfbdc67324da6a5afdc71244dc46d8d0583153a0c8781b324ce9b52efb2ce5221.a13fd82113238f62",
+    "balance": 0,
+    "id": "68d0e94f"
   }
 ]

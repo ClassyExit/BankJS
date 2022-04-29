@@ -5,27 +5,26 @@ module.exports = ({ errors }) => {
   return authLayout({
     titlePage: "SignIn",
     content: `
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-one-quarter">
-            <form method="POST">
-              <h1 class="title">Sign In</h1>
-              <div class="field">
-                <label class="label">Email</label>
+        <div class="flex-container">
+          <div class="content-container">
+            <div class="form-container">
+              <form method="POST">
+                <h1>Login</h1>
+                <br>
                 <input required class="input" placeholder="Email" name="email" />
-                <p class="help is-danger">${getError(errors, "email")}</p>
-              </div>
-              <div class="field">
-                <label class="label">Password</label>
+                <p class="help-auth">${getError(errors, "email")}</p>
+                <br>
                 <input required class="input" placeholder="Password" name="password" type="password" />
-                <p class="help is-danger">${getError(errors, "password")}</p>
-              </div>
-              <button class="button is-primary">Submit</button>
-            </form>
-            <a href="/signup">Need an account? Sign Up</a>
+                <p class="help-auth">${getError(errors, "password")}</p>
+                <br>
+                <input type="submit" value="SUBMIT" class="submit-btn">
+              </form>
+
+              <a href="/signup">Need an account? Sign Up</a>
+            </div>
+              
           </div>
         </div>
-      </div>
           `,
   });
 };

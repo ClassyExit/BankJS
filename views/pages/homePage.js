@@ -1,5 +1,3 @@
-// Add contents to home page
-
 const layout = require("../layout");
 
 module.exports = () => {

@@ -26,7 +26,8 @@ router.post(
   handleErrors(signupTemplate),
   async (req, res) => {
     const { email, password } = req.body;
-    const user = await usersRepo.create({ email, password });
+    const balance = 0;
+    const user = await usersRepo.create({ email, password, balance });
 
     req.session.userId = user.id;
 

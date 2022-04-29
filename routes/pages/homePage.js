@@ -1,6 +1,6 @@
 const express = require("express");
 
-const homePageTemplate = require("../../views/layout");
+const homePageTemplate = require("../../views/pages/homePage");
 
 const router = express.Router();
 
