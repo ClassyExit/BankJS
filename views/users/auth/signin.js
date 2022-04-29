@@ -17,7 +17,7 @@ module.exports = ({ errors }) => {
                 <input required class="input" placeholder="Password" name="password" type="password" />
                 <p class="help-auth">${getError(errors, "password")}</p>
                 <br>
-                <input type="submit" value="SUBMIT" class="submit-btn">
+                <input type="submit" class="submit-btn value="Submit">
               </form>
 
               <a href="/signup">Need an account? Sign Up</a>

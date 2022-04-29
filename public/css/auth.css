@@ -10,7 +10,6 @@ html {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #121212; /* fallback for old browsers */
   overflow-x: hidden;
 
   height: 100%;
@@ -119,14 +118,14 @@ input {
 
   margin: 10px;
 
+  font-weight: 600;
+
   box-shadow: 2px 2px 7px #38d39f70;
 
-  background: #38d39f;
+  background: #24b484;
   color: rgba(255, 255, 255, 0.8);
 
   width: 80px;
-
-  transition: all 1s;
 }
 
 .submit-btn:hover {

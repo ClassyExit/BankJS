@@ -22,7 +22,7 @@ module.exports = ({ errors }) => {
                   errors,
                   "passwordConfirmation"
                 )}</p>
-                <input type="submit" value="SUBMIT" class="submit-btn">
+                <input type="submit" value="Submit" class="submit-btn">
               </form>
             
               <a href="/signin">Have an account? Log In</a>

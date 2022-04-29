@@ -7,6 +7,7 @@ module.exports = ({ currentUser }) => {
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link href="/css/dashboard.css" rel="stylesheet">
+            <link href="/css/main.css" rel="stylesheet">
 
             <script src="https://kit.fontawesome.com/7816c50242.js" crossorigin="anonymous">
                 <link rel="preconnect" href="https://fonts.googleapis.com">
