@@ -1,10 +1,13 @@
 const dashboardTemplate = require("./dashboardTemplate");
-const usersRepo = require("../../repo/users");
+
 module.exports = () => {
   return dashboardTemplate({
-    titlePage: "Dashboard",
+    titlePage: "Transaction",
     content: `
-          <p> Dashboard! </p>
-        `,
+
+        <div id="main">
+            <p> Transaction page! </p>
+        </div>
+      `,
   });
 };

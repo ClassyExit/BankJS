@@ -4,5 +4,17 @@
     "password": "30b418d935d91226338f46a0bb6e4206ca4ff8e082e77e891038861af7679e1dfbdc67324da6a5afdc71244dc46d8d0583153a0c8781b324ce9b52efb2ce5221.a13fd82113238f62",
     "balance": 0,
     "id": "68d0e94f"
+  },
+  {
+    "email": "fazerug@gmail.com",
+    "password": "ea6e746ab6a0836c1bf14905679f3b594b6d21f353dcb807bd17d823b5b9d02dae0a0cb397bae4043134c9d647639aebf065b3caa37f443a436f43c185fb0c73.a175838abb4a9f0a",
+    "balance": 0,
+    "id": "05dabc9e"
+  },
+  {
+    "email": "test@test.com",
+    "password": "3189769079792427620e0778f718987fd125d2f32cffc33699643ff255b033d15a8476bc1c76dfeb973b23b9691a6ef66148937a72a171642aca9a81f772544d.35e6e0158a680db4",
+    "balance": 1000,
+    "id": "a7a4be04"
   }
 ]

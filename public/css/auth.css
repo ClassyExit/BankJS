@@ -40,14 +40,10 @@ h1 {
   font-weight: 800;
 }
 
-p {
-  color: white;
-}
-
 .flex-container {
   width: 100vw;
 
-  margin-top: 60px;
+  margin-top: 0%;
 
   display: flex;
   justify-content: center;
@@ -60,20 +56,21 @@ p {
 }
 
 .help-auth {
+  font-size: 16px;
   display: flex;
-  justify-content: left;
+
   color: rgb(202, 5, 5);
 }
 
 a:link {
   color: white;
-  margin: 10px;
+  margin: 12px;
   display: flex;
 }
 
 a:visited {
   color: white;
-  margin: 10px;
+  margin: 12px;
   display: flex;
 }
 
