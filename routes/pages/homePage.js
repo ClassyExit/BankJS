@@ -4,7 +4,7 @@ const homePageTemplate = require("../../views/pages/homePage");
 
 const router = express.Router();
 
-// Landing page
+// Landing page/Home page
 router.get("/", (req, res) => {
   res.redirect("/home");
 });

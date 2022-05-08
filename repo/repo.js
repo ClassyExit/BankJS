@@ -67,7 +67,6 @@ module.exports = class Repo {
     if (!record) {
       throw new Error(`Record with id ${id} not found`);
     }
-
     Object.assign(record, attrs);
     await this.writeAll(records);
   }

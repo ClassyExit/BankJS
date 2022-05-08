@@ -2,12 +2,6 @@ body {
   background: #121212;
 }
 
-p {
-  font-size: 36px;
-  text-align: center;
-  color: #00a0d2;
-}
-
 .container-bttn {
   min-height: 30vh;
   justify-content: center;

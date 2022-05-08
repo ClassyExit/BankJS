@@ -37,6 +37,8 @@ TODO:
         - withdrawl
         - Transfer
         - Transactions
+    - Validation
+        - Validate withdrawl and deposit transactions
 
 
 - Deposit/ withdrawl UI https://codepen.io/iftikharrasha/pen/NWbKaOX
@@ -46,5 +48,8 @@ TODO:
 - Home page
     https://codepen.io/asleka/pen/MWjxXMJ
     https://codepen.io/vincesamoy/pen/mEmqbJ
+
+
+
 
 

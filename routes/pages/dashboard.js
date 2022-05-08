@@ -1,6 +1,6 @@
 const express = require("express");
 
-const dashboardTemplate = require("../../views/pages/dashboardTemplate");
+const dashboardTemplate = require("../../views/pages/dashboard");
 const { requireAuth } = require("../users/middlewares");
 const usersRepo = require("../../repo/users");
 

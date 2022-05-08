@@ -3,7 +3,7 @@
 }
 
 #sidebar {
-  width: 200px;
+  width: 10vw;
   height: 100vh;
   background: #2d3853;
   color: #fff;
@@ -32,12 +32,9 @@
 #sidebar p {
   font-size: 16px;
   color: white;
+  text-align: center;
 }
 
-#sidebar:hover {
-  width: 200px;
-  border-radius: 5px;
-}
 #sidebar a:hover {
   border-radius: 5px;
   box-shadow: 0px 0px 0px #070913, 0px 0px 0px #171d2b,
@@ -49,11 +46,63 @@
 }
 
 #main {
-  padding-left: 210px;
-  display: flex;
+  padding-left: 11vw;
 }
 
 #main p {
   color: white;
   font-size: 16px;
+}
+
+.submit-area {
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 5px gray;
+  color: white;
+  background-color: royalblue;
+  float: left;
+  margin-right: 15px;
+  height: 150px;
+}
+
+.container-input {
+  display: inline-block;
+  top: 15vh;
+  position: relative;
+}
+
+.container-display {
+  float: left;
+  height: 15vh;
+  position: absolute;
+}
+
+#account-area {
+  display: flex;
+}
+
+.deposit {
+  background-color: slateblue;
+}
+
+.withdraw {
+  background-color: lightsalmon;
+}
+
+.balance {
+  background-color: tomato;
+}
+
+.status {
+  margin: 0 20px;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#content-main {
+  padding-left: 11vw;
+  position: absolute;
+  color: white;
 }

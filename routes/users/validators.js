@@ -1,4 +1,5 @@
 const { check } = require("express-validator");
+const req = require("express/lib/request");
 const usersRepo = require("../../repo/users");
 
 module.exports = {
@@ -53,4 +54,11 @@ module.exports = {
         throw new Error("Invalid password");
       }
     }),
+  requireValidWithdrawlAmount: check("withdrawlRequest").custom(
+    (withdrawlRequest, currentBalance) => {
+      if (withdrawlRequest > currentBalance) {
+        throw new Error("Withdrawl exceeds available balance");
+      }
+    }
+  ),
 };
