@@ -6,7 +6,7 @@ In addition to JavaScript, I've incorporated a local-based database and a backen
 
 RUNNING PROJECT:
 
-Install Node.js (https://nodejs.org/en/download/)
+Install Node.js (https://nodejs.org/en/download/) <br>
 Navigate to the project folder and run the following from a terminal:
 npm init -y (to create a Node.js project)
 npm i express (to install Express)
