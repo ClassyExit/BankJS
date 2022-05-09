@@ -21,4 +21,3 @@ app.use(dashboardRouter);
 app.use(transactionRouter);
 
 app.listen(process.env.PORT || 3000, () => console.log("Server running..."));
-// app.listen(3000, "192.168.1.16");
