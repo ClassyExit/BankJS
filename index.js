@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser"); // Parse incoming requests
 const cookieSession = require("cookie-session"); // Use browser cookie
-const userAuthRouter = require("./routes/users/auth"); // Sign in/up pages
+const userAuthRouter = require("./routes/users/auth");
 const homePageRouter = require("./routes/pages/homePage");
 const dashboardRouter = require("./routes/pages/dashboard");
 const transactionRouter = require("./routes/pages/transactions");
