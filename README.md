@@ -4,6 +4,7 @@ A simple browser based bank application I developed while learning JavaScript (J
 In addition to JavaScript, I've incorporated a local-based database and a backend using node.js
 
 
+<br><br>
 RUNNING PROJECT:
 
 - Install Node.js (https://nodejs.org/en/download/)
